@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/scienceandcode/nucleus-api/internal/app/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/common"
+	"github.com/MatheusGardin/VReps/internal/app/interfaces"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/common"
 )
 
 var (

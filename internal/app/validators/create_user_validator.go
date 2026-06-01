@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	appErrors "github.com/scienceandcode/nucleus-api/internal/app/errors"
-	uInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/user/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/common"
+	appErrors "github.com/MatheusGardin/VReps/internal/app/errors"
+	uInterfaces "github.com/MatheusGardin/VReps/internal/domain/user/interfaces"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/common"
 )
 
 type UserValidator struct {

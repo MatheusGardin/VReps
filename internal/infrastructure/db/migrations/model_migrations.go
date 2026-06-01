@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db/models"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db/models"
 	"gorm.io/gorm"
 )
 

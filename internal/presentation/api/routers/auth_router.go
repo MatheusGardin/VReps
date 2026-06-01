@@ -1,6 +1,6 @@
 package routers
 
-import "github.com/scienceandcode/nucleus-api/internal/infrastructure/api/middlewares"
+import "github.com/MatheusGardin/VReps/internal/infrastructure/api/middlewares"
 
 func (r *Router) RegisterAuthRoutes() {
 	group := r.group.Group("/auth")

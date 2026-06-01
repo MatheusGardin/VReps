@@ -17,7 +17,7 @@ type connectionConfig struct {
 }
 
 const (
-	DbContainerName = "nucleus_db"
+	DbContainerName = "vreps_db"
 )
 
 var AllContainers = []string{DbContainerName}

@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"testing"
 
-	commonInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/common/interfaces"
-	taskInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/task/interfaces"
-	uInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/user/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/common"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db/repositories"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/di/test"
+	commonInterfaces "github.com/MatheusGardin/VReps/internal/domain/common/interfaces"
+	taskInterfaces "github.com/MatheusGardin/VReps/internal/domain/task/interfaces"
+	uInterfaces "github.com/MatheusGardin/VReps/internal/domain/user/interfaces"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/common"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db/repositories"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/di/test"
 	"github.com/stretchr/testify/require"
 )
 
@@ -50,7 +50,7 @@ func TestMain(m *testing.M) {
 // DefaultSetup sets the environment variables every test relies on. Call it at
 // the top of each test function.
 func (ts *TestSuiteType) DefaultSetup(t *testing.T) {
-	t.Setenv("APP_NAME", "Nucleus API")
+	t.Setenv("APP_NAME", "VReps")
 	t.Setenv("API_PREFIX", "/v1")
 	t.Setenv("SERVER_RUNNER", "default")
 	t.Setenv("SERVER_PORT", "8080")

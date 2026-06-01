@@ -1,6 +1,6 @@
 # Adding a New Resource — Step by Step
 
-This is the single source of truth for adding a CRUD resource to Nucleus API.
+This is the single source of truth for adding a CRUD resource to VReps.
 It applies equally whether you are Claude, Codex, or a human.
 
 The example resource **`Task`** already exists across every layer — keep it
@@ -48,7 +48,7 @@ package interfaces
 import (
 	"context"
 
-	"github.com/scienceandcode/nucleus-api/internal/domain/widget/entities"
+	"github.com/MatheusGardin/VReps/internal/domain/widget/entities"
 )
 
 type WidgetRepositoryInterface interface {
@@ -347,7 +347,7 @@ page=0 or absent → internal page 0 (first page)
 Add `List` to `internal/domain/widget/interfaces/widget_repository_interface.go`:
 
 ```go
-import "github.com/scienceandcode/nucleus-api/internal/app/messages"
+import "github.com/MatheusGardin/VReps/internal/app/messages"
 
 type WidgetRepositoryInterface interface {
     Create(ctx context.Context, widget *entities.Widget) (*entities.Widget, error)

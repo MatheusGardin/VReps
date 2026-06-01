@@ -3,7 +3,7 @@ package interfaces
 import (
 	"context"
 
-	"github.com/scienceandcode/nucleus-api/internal/domain/task/entities"
+	"github.com/MatheusGardin/VReps/internal/domain/task/entities"
 )
 
 type TaskRepositoryInterface interface {

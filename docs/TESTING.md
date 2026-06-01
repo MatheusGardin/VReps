@@ -1,4 +1,4 @@
-# Testing Guidelines — Nucleus API
+# Testing Guidelines — VReps
 
 Documentação sobre padrões de testes adotados no projeto. Todo novo recurso API ou manutenção em existentes **deve incluir testes** seguindo as convenções descritas.
 

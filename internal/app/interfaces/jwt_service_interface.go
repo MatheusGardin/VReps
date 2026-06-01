@@ -3,7 +3,7 @@ package interfaces
 import (
 	"context"
 
-	uEntities "github.com/scienceandcode/nucleus-api/internal/domain/user/entities"
+	uEntities "github.com/MatheusGardin/VReps/internal/domain/user/entities"
 )
 
 type JwtServiceInterface interface {

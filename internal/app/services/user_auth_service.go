@@ -5,14 +5,14 @@ import (
 	"strconv"
 	"time"
 
-	appErrors "github.com/scienceandcode/nucleus-api/internal/app/errors"
-	"github.com/scienceandcode/nucleus-api/internal/app/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/app/mappers"
-	"github.com/scienceandcode/nucleus-api/internal/app/messages"
-	"github.com/scienceandcode/nucleus-api/internal/app/validators"
-	"github.com/scienceandcode/nucleus-api/internal/domain/user/entities"
-	rInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/user/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/common"
+	appErrors "github.com/MatheusGardin/VReps/internal/app/errors"
+	"github.com/MatheusGardin/VReps/internal/app/interfaces"
+	"github.com/MatheusGardin/VReps/internal/app/mappers"
+	"github.com/MatheusGardin/VReps/internal/app/messages"
+	"github.com/MatheusGardin/VReps/internal/app/validators"
+	"github.com/MatheusGardin/VReps/internal/domain/user/entities"
+	rInterfaces "github.com/MatheusGardin/VReps/internal/domain/user/interfaces"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/common"
 
 	"golang.org/x/crypto/bcrypt"
 )

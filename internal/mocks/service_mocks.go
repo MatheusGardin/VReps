@@ -7,9 +7,9 @@ package mocks
 import (
 	"context"
 
-	"github.com/scienceandcode/nucleus-api/internal/app/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/app/messages"
-	"github.com/scienceandcode/nucleus-api/internal/domain/user/entities"
+	"github.com/MatheusGardin/VReps/internal/app/interfaces"
+	"github.com/MatheusGardin/VReps/internal/app/messages"
+	"github.com/MatheusGardin/VReps/internal/domain/user/entities"
 	mock "github.com/stretchr/testify/mock"
 )
 

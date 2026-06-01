@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/scienceandcode/nucleus-api/internal/app/errors"
-	"github.com/scienceandcode/nucleus-api/internal/app/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/common"
+	"github.com/MatheusGardin/VReps/internal/app/errors"
+	"github.com/MatheusGardin/VReps/internal/app/interfaces"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/common"
 )
 
 // EmailService is a transactional-email client. It targets a Brevo-style HTTP

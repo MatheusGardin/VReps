@@ -1,4 +1,4 @@
-# Processo de Release — Nucleus API
+# Processo de Release — VReps
 
 ## Princípios
 

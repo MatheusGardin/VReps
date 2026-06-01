@@ -3,10 +3,10 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/scienceandcode/nucleus-api/internal/app/errors"
-	"github.com/scienceandcode/nucleus-api/internal/app/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/app/messages"
-	apiHelpers "github.com/scienceandcode/nucleus-api/internal/infrastructure/api"
+	"github.com/MatheusGardin/VReps/internal/app/errors"
+	"github.com/MatheusGardin/VReps/internal/app/interfaces"
+	"github.com/MatheusGardin/VReps/internal/app/messages"
+	apiHelpers "github.com/MatheusGardin/VReps/internal/infrastructure/api"
 
 	"github.com/gin-gonic/gin"
 )

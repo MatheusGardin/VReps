@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	appErrors "github.com/scienceandcode/nucleus-api/internal/app/errors"
-	"github.com/scienceandcode/nucleus-api/internal/domain/user/entities"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db/models"
+	appErrors "github.com/MatheusGardin/VReps/internal/app/errors"
+	"github.com/MatheusGardin/VReps/internal/domain/user/entities"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db/models"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

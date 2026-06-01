@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/scienceandcode/nucleus-api/internal/app/interfaces"
-	uEntities "github.com/scienceandcode/nucleus-api/internal/domain/user/entities"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/api/auth"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/common"
+	"github.com/MatheusGardin/VReps/internal/app/interfaces"
+	uEntities "github.com/MatheusGardin/VReps/internal/domain/user/entities"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/api/auth"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/common"
 
 	"github.com/golang-jwt/jwt/v5"
 )

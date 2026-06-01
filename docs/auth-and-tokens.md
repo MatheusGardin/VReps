@@ -1,6 +1,6 @@
 # Authentication & Tokens
 
-Nucleus API uses a single, deliberately minimal token: an **identity JWT**. It
+VReps uses a single, deliberately minimal token: an **identity JWT**. It
 proves *who* the user is and carries no tenant, roles or scopes. A richer
 authorization model is meant to be layered on top later.
 

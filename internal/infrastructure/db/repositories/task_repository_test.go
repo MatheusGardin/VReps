@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
-	appErrors "github.com/scienceandcode/nucleus-api/internal/app/errors"
-	taskEntities "github.com/scienceandcode/nucleus-api/internal/domain/task/entities"
-	"github.com/scienceandcode/nucleus-api/internal/domain/user/entities"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db/models"
+	appErrors "github.com/MatheusGardin/VReps/internal/app/errors"
+	taskEntities "github.com/MatheusGardin/VReps/internal/domain/task/entities"
+	"github.com/MatheusGardin/VReps/internal/domain/user/entities"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db/models"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -1,12 +1,12 @@
 package services
 
 import (
-	appInterfaces "github.com/scienceandcode/nucleus-api/internal/app/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/app/services"
-	commonInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/common/interfaces"
-	taskInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/task/interfaces"
-	uInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/user/interfaces"
-	emailServicePkg "github.com/scienceandcode/nucleus-api/internal/infrastructure/email"
+	appInterfaces "github.com/MatheusGardin/VReps/internal/app/interfaces"
+	"github.com/MatheusGardin/VReps/internal/app/services"
+	commonInterfaces "github.com/MatheusGardin/VReps/internal/domain/common/interfaces"
+	taskInterfaces "github.com/MatheusGardin/VReps/internal/domain/task/interfaces"
+	uInterfaces "github.com/MatheusGardin/VReps/internal/domain/user/interfaces"
+	emailServicePkg "github.com/MatheusGardin/VReps/internal/infrastructure/email"
 )
 
 func ProvideBaseService(transactionManager commonInterfaces.TransactionManagerInterface) *services.BaseService {

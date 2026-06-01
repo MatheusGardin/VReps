@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db"
 )
 
 func MigrateModels() error {

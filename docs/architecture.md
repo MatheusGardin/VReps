@@ -1,6 +1,6 @@
 # Architecture
 
-Nucleus API follows a layered architecture with dependency injection. Each
+VReps follows a layered architecture with dependency injection. Each
 layer depends only on the layer(s) below it and talks across boundaries
 through interfaces.
 

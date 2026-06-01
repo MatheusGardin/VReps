@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	appErrors "github.com/scienceandcode/nucleus-api/internal/app/errors"
-	"github.com/scienceandcode/nucleus-api/internal/domain/user/entities"
-	"github.com/scienceandcode/nucleus-api/internal/domain/user/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db/mappers"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db/models"
+	appErrors "github.com/MatheusGardin/VReps/internal/app/errors"
+	"github.com/MatheusGardin/VReps/internal/domain/user/entities"
+	"github.com/MatheusGardin/VReps/internal/domain/user/interfaces"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db/mappers"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db/models"
 
 	"gorm.io/gorm"
 )

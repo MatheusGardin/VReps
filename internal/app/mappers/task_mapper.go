@@ -1,8 +1,8 @@
 package mappers
 
 import (
-	"github.com/scienceandcode/nucleus-api/internal/app/messages"
-	"github.com/scienceandcode/nucleus-api/internal/domain/task/entities"
+	"github.com/MatheusGardin/VReps/internal/app/messages"
+	"github.com/MatheusGardin/VReps/internal/domain/task/entities"
 )
 
 func MapTaskToResponseDTO(task *entities.Task) *messages.TaskResponseDTO {

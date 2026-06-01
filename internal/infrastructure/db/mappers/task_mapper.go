@@ -1,8 +1,8 @@
 package mappers
 
 import (
-	"github.com/scienceandcode/nucleus-api/internal/domain/task/entities"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/db/models"
+	"github.com/MatheusGardin/VReps/internal/domain/task/entities"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/db/models"
 )
 
 func MapTaskToEntity(model *models.Task) *entities.Task {

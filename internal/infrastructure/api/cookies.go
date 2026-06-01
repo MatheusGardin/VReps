@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/MatheusGardin/VReps/internal/infrastructure/common"
 	"github.com/gin-gonic/gin"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/common"
 )
 
 const (

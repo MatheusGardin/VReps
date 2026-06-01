@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	commonInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/common/interfaces"
-	uInterfaces "github.com/scienceandcode/nucleus-api/internal/domain/user/interfaces"
-	"github.com/scienceandcode/nucleus-api/internal/infrastructure/di/test"
+	commonInterfaces "github.com/MatheusGardin/VReps/internal/domain/common/interfaces"
+	uInterfaces "github.com/MatheusGardin/VReps/internal/domain/user/interfaces"
+	"github.com/MatheusGardin/VReps/internal/infrastructure/di/test"
 	"github.com/stretchr/testify/require"
 )
 
